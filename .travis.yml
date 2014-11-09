@@ -1,9 +1,7 @@
 language: node_js
 node_js:
-- "0.10"
+- '0.10'
 after_success: ./update-gh-pages.sh
 env:
   global:
-    secure: kIeA0awG+Q3XuEP7VUn8fCRN0tIfHCLG6h7A3LnSwPuSejNE5Qc2Pk9pwVX0Nyg8viLNw0GnDxP4PecjbX0rEv18G1MpeYbheJa54Q3UCCa/xUFJ9Yynd8BZWiohnLCMk4yMPkEtkuc0eM16Nfz3Q/RIK8qvJOCDDHmT833S1c4=
-  matrix:
-    secure: iGHDvkEJSrbq1vouiIVWhRBJQUBF7uy5XsFROWHyKcZgQA+BAdydaTw4stdw9mqHs1UZseja5h60dyaWFjVwdBDufu5xbi1NvoxZ843ambvudEs5mBQCiRKpPtdrs5vI0dUhOFEhA5yDVdZhK/1Crb+8OEKc3CdwRYHfrjEnRFE=
+    secure: FZARZxdxheufQsyfWblwTq0DtfHAVKaLbajfaBmwBwMuyJmLAj5I0kC7kJJD67oz70dkUEiGqBvwAi59A4+2JQQS/WcXP2vq/BXGzpPl/7TO2H7OkRHKYrCYiejAA9dbQawkveKLEb0ltRKKwccJhyBYVSwODBJ9oqzvch6YNik=
