@@ -1,0 +1,9 @@
+block('page')(
+    js()(true),
+    content()(function() {
+        return {
+            elem: 'inner',
+            content: applyNext()
+        };
+    })
+);

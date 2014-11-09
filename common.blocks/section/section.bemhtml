@@ -1,0 +1,13 @@
+block('section')(
+    attrs()(function() {
+        return {
+            'data-anchor': this.ctx.mods.type
+        };
+    }),
+    content()(function() {
+        return {
+            elem: 'inner',
+            content: applyNext()
+        };
+    })
+);

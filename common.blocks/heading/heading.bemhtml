@@ -1,0 +1,3 @@
+block('heading').tag()(function() {
+    return 'h' + this.ctx.mods.level || 2;
+});

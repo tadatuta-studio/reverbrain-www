@@ -1,0 +1,9 @@
+.logo
+{
+    width: 280px;
+    height: 126px;
+    margin: 0 auto 40px;
+
+    background: url(logo_color_white.svg);
+    background-size: 100%;
+}

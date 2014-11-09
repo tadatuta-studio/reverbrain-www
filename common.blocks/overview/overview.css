@@ -1,0 +1,55 @@
+/* used as preloader */
+.overview:before
+{
+    content: "";
+    background: url(/i/elliptics_hovered.svg), url(/i/eblob_hovered.svg), url(/i/rift_hovered.svg);
+}
+
+.overview__item
+{
+    font-size: 24px;
+
+    display: inline-block;
+
+    width: 33%;
+}
+
+.overview__item .link
+{
+    display: block;
+    margin: auto;
+    padding-top: 86px;
+
+    background: url(/i/elliptics.svg) no-repeat 50% 0;
+    background-size: 70px;
+}
+
+.overview__item_tech_elliptics .link
+{
+    background-image: url(/i/elliptics.svg);
+}
+
+.overview__item_tech_elliptics .link:hover
+{
+    background-image: url(/i/elliptics_hovered.svg);
+}
+
+.overview__item_tech_eblob .link
+{
+    background-image: url(/i/eblob.svg);
+}
+
+.overview__item_tech_eblob .link:hover
+{
+    background-image: url(/i/eblob_hovered.svg);
+}
+
+.overview__item_tech_rift .link
+{
+    background-image: url(/i/rift.svg);
+}
+
+.overview__item_tech_rift .link:hover
+{
+    background-image: url(/i/rift_hovered.svg);
+}
