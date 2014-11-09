@@ -1,4 +1,7 @@
 {
+    "paths" : {
+        "i/": "i/"
+    },
     "freeze_paths" : {
         "libs/**": ":base64:",
         "*.blocks/**": "i/"
