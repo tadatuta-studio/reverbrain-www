@@ -7,3 +7,33 @@
     background: url(logo_color_white.svg);
     background-size: 100%;
 }
+
+.logo_tech_eblob
+{
+    background-image: url(logo_tech_eblob.svg);
+}
+
+.logo_tech_eblob-hovered
+{
+    background-image: url(logo_tech_eblob-hovered.svg);
+}
+
+.logo_tech_elliptics
+{
+    background-image: url(logo_tech_eblob.svg);
+}
+
+.logo_tech_elliptics-hovered
+{
+    background-image: url(logo_tech_eblob-hovered.svg);
+}
+
+.logo_tech_rift
+{
+    background-image: url(logo_tech_eblob.svg);
+}
+
+.logo_tech_rift-hovered
+{
+    background-image: url(logo_tech_eblob-hovered.svg);
+}

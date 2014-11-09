@@ -2,7 +2,7 @@
 .overview:before
 {
     content: "";
-    background: url(/i/elliptics_hovered.svg), url(/i/eblob_hovered.svg), url(/i/rift_hovered.svg);
+    background: url(../logo/logo_tech_elliptics-hovered.svg), url(../logo/logo_tech_eblob-hovered.svg), url(../logo/logo_tech_rift-hovered.svg);
 }
 
 .overview__item
@@ -20,36 +20,36 @@
     margin: auto;
     padding-top: 86px;
 
-    background: url(/i/elliptics.svg) no-repeat 50% 0;
+    background: url(../logo/logo_tech_elliptics.svg) no-repeat 50% 0;
     background-size: 70px;
 }
 
 .overview__item_tech_elliptics .link
 {
-    background-image: url(/i/elliptics.svg);
+    background-image: url(../logo/logo_tech_elliptics.svg);
 }
 
 .overview__item_tech_elliptics .link:hover
 {
-    background-image: url(/i/elliptics_hovered.svg);
+    background-image: url(../logo/logo_tech_elliptics-hovered.svg);
 }
 
 .overview__item_tech_eblob .link
 {
-    background-image: url(/i/eblob.svg);
+    background-image: url(../logo/logo_tech_eblob.svg);
 }
 
 .overview__item_tech_eblob .link:hover
 {
-    background-image: url(/i/eblob_hovered.svg);
+    background-image: url(../logo/logo_tech_eblob-hovered.svg);
 }
 
 .overview__item_tech_rift .link
 {
-    background-image: url(/i/rift.svg);
+    background-image: url(../logo/logo_tech_rift.svg);
 }
 
 .overview__item_tech_rift .link:hover
 {
-    background-image: url(/i/rift_hovered.svg);
+    background-image: url(../logo/logo_tech_rift-hovered.svg);
 }
