@@ -1,12 +1,12 @@
 @import url("../../libs/fullpage.js/jquery.fullPage.css");
 
-#fp-nav span,
+#fp-nav ul li a span,
 .fp-slidesNav span
 {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
-#fp-nav li .active span,
+#fp-nav ul li a.active span,
 .fp-slidesNav .active span
 {
     background-color: rgba(255, 255, 255, 0.3);
