@@ -85,7 +85,7 @@
     text-align: center;
 }
 
-@media screen and(device-pixel-ratio: 2) {
+@media screen and (-webkit-device-pixel-ratio: 2) {
     .section__inner
     {
         max-width: 192vmin;
