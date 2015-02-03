@@ -1,0 +1,75 @@
+.section_type_about
+{
+    background: #1c1e26;
+    color: #fff;
+    /*background: #616633;*/
+    /*background: radial-gradient(ellipse at 70% 10%, #616633 0%, #1c1e26 100%);*/
+}
+
+.section_type_about .section__watermark
+{
+    top: 30vh;
+    right: -55vh;
+    padding-right: 70vh;
+    width: auto;
+    height: auto;
+}
+
+.section_type_about .section__watermark:first-child
+{
+    right: -20vh;
+    padding: 0;
+}
+
+.section_type_about .section__watermark:nth-child(3),
+.section_type_about .section__watermark:nth-child(4) .logo
+{
+    transform: rotate(60deg);
+}
+
+.section_type_about .section__watermark:nth-child(4),
+.section_type_about .section__watermark:nth-child(3) .logo
+{
+    transform: rotate(-60deg);
+}
+
+.section_type_about .section__watermark .logo
+{
+    width: 40vh;
+    height: 40vh;
+}
+
+.section_type_about .heading_level_1
+{
+    margin-bottom: 50px;
+}
+
+.section_type_about .heading_level_3
+{
+    margin-bottom: 30px;
+}
+
+.section_type_about .section__description:last-of-type
+{
+    text-align: center;
+}
+
+.section_type_about .logo_tech_reverbrain
+{
+    background-image: url(../../logo/logo_tech_reverbrain-white.svg);
+}
+
+.section_type_about .logo_tech_eblob
+{
+    background-image: url(../../logo/logo_tech_eblob-white.svg);
+}
+
+.section_type_about .logo_tech_elliptics
+{
+    background-image: url(../../logo/logo_tech_elliptics-white.svg);
+}
+
+.section_type_about .logo_tech_rift
+{
+    background-image: url(../../logo/logo_tech_rift-white.svg);
+}

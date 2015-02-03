@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Хук на пуш для сборки из ветки в соответствующую папку
+
+# !!! предполагается такая структура проекта:
+# /projectName/.git - bare репозиторий содержащий данный хук
+# /projectName/branchName - сюда будет чекаутиться ветка
+
+branch=$(git rev-parse --symbolic --abbrev-ref $1)
+sourceDir=`pwd`/../$branch
+mkdir -p $sourceDir
+git --work-tree=$sourceDir --git-dir=`pwd` checkout -f $branch
+
+# Запустить build.sh если он есть в репозитории
+[ -e $sourceDir/build.sh ] && echo "Run build.sh" && cd $sourceDir && ./build.sh

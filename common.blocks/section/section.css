@@ -6,138 +6,81 @@
 
     min-height: 100%;
 
-    font-size: 20px;
+    font-size: 2.5vmin;
 }
 
-.section:before
+.section__watermark
 {
     position: absolute;
 
-    content: "";
+    top: 0;
 
-    width: 1500px;
-    height: 1500px;
+    right: -100%;
+    z-index: 0;
+    width: 200%;
+    height: 100%;
 
-    background-repeat: no-repeat;
-    background-position: 150% -10%;
-    background-size: 70%;
+    content: '';
 
     opacity: .1;
-
-    z-index: 0;
 }
 
 .section__inner
 {
     position: relative;
-    z-index: 1;
-
     padding: 40px;
+}
+
+.section__logo
+{
+    margin: 0 auto 7vmin;
+    width: 15vmin;
+    height: 15vmin;
 }
 
 .section .heading_level_1
 {
-    background: 50% 0 no-repeat;
-    background-size: 120px;
-    padding-top: 150px;
+    margin-bottom: 10px;
 }
 
-.section_type_reverbrain
+.section .heading_level_3
 {
-    background: #366;
-    background: radial-gradient(ellipse at 70% 10%, #366 0%, #1c1e26 100%);
-}
-
-.section_type_reverbrain:before
-{
-    background: url(../logo/logo_type_shape.svg) 0 0 no-repeat;
-    background-size: 2000%;
-}
-
-.section_type_reverbrain .heading_level_2
-{
-    margin-bottom: 30px;
-}
-
-.section_type_reverbrain .section__description
-{
-    font-size: 26px;
-
-    margin-bottom: 52px;
-}
-
-.section_type_elliptics
-{
-    background: #383366;
-    background: radial-gradient(ellipse at 70% 10%, #383366 0%, #1c1e26 100%);
-}
-
-.section_type_elliptics:before
-{
-    background-image: url(../logo/logo_tech_elliptics.svg);
-}
-
-.section_type_elliptics .heading_level_1
-{
-    background-image: url(../logo/logo_tech_elliptics.svg);
-}
-
-.section_type_eblob
-{
-    background: #663358;
-    background: radial-gradient(ellipse at 70% 10%, #663358 0%, #1c1e26 100%);
-}
-
-.section_type_eblob:before
-{
-    background-image: url(../logo/logo_tech_eblob.svg);
-}
-
-.section_type_eblob .heading_level_1
-{
-    background-image: url(../logo/logo_tech_eblob.svg);
-}
-
-.section_type_rift
-{
-    background: #335666;
-    background: radial-gradient(ellipse at 70% 10%, #335666 0%, #1c1e26 100%);
-}
-
-.section_type_rift:before
-{
-    background-image: url(../logo/logo_tech_rift.svg);
-}
-
-.section_type_rift .heading_level_1
-{
-    background-image: url(../logo/logo_tech_rift.svg);
-}
-
-.section_type_about
-{
-    background: #616633;
-    background: radial-gradient(ellipse at 70% 10%, #616633 0%, #1c1e26 100%);
+    margin-bottom: 4vmin;
 }
 
 .section__nav
 {
+    margin: 4vmin auto;
     width: 80%;
-    margin: 40px auto;
-
     text-align: center;
 }
 
-.section__nav .link
+.section__nav-item
 {
     display: inline-block;
-
     width: 30%;
+    text-align: center;
+}
+
+.section__nav-item .link
+{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
 }
 
 .section__description
 {
-    padding: 0 60px;
+    padding: 0 3vw;
+}
+
+.section__footer
+{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

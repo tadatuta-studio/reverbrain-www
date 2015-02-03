@@ -3,11 +3,11 @@
 #fp-nav ul li a span,
 .fp-slidesNav span
 {
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
 }
 
 #fp-nav ul li a.active span,
 .fp-slidesNav .active span
 {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }

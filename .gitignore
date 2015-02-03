@@ -11,7 +11,7 @@ Design
 TODO
 
 output
-i
+*.bundles/*/i
 
 # bem
 .bem/cache/

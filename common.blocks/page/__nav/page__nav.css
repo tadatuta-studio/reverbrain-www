@@ -1,0 +1,160 @@
+.page__nav
+{
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: none;
+    height: 30%;
+    opacity: .2;
+    cursor: pointer;
+    transition: opacity .3s linear;
+    user-select: none;
+}
+
+.page__nav:hover
+{
+    background: rgba(0, 0, 0, .1);
+    opacity: .7;
+}
+
+.page__nav:before
+{
+    position: absolute;
+    right: 0;
+    margin: auto;
+    width: 62px;
+    height: 30px;
+    background: url('page__nav.svg') 50% 0 / 100% 200% no-repeat;
+    content: '';
+    transform: translateZ(0);
+}
+
+.page__nav_visible
+{
+    display: block;
+}
+
+.page__nav .page__text
+{
+    position: absolute;
+    right: 70px;
+    color: #000;
+    font-size: 24px;
+}
+
+.page__nav_prev,
+.page__nav_prev .page__text
+{
+    top: 0;
+}
+
+.page__nav_prev:before
+{
+    top: 2%;
+}
+
+.page__nav_next,
+.page__nav_next .page__text
+{
+    bottom: 0;
+}
+
+.page__nav_next:before
+{
+    bottom: 2%;
+    background-position: 50% 100%;
+}
+
+.page__nav_prev:hover:before
+{
+    animation: infinite shift-down 1s;
+}
+
+@keyframes shift-down {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 10px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+.page__nav_next:hover:before
+{
+    animation: infinite shift-up 1s ease-out;
+}
+
+@keyframes shift-up {
+    0% {
+        margin-bottom: 0;
+    }
+    50% {
+        margin-bottom: 10px;
+    }
+    100% {
+        margin-bottom: 0;
+    }
+}
+
+
+.page_num_0 .page__nav:before,
+.page_num_4 .page__nav:before
+{
+    background-image: url(page__nav-white.svg);
+}
+
+.page_num_0 .page__nav:hover,
+.page_num_4 .page__nav:hover
+{
+    background: rgba(255, 255, 255, .1);
+}
+
+.page_num_0 .page__nav .page__text,
+.page_num_4 .page__nav .page__text
+{
+    color: #fff;
+}
+
+
+.page__text
+{
+    padding: 5px 0;
+}
+
+.page__text span
+{
+    line-height: 1;
+}
+
+.page__text span + span
+{
+    margin-left: 15px;
+}
+
+.page__text span:nth-last-child(2)
+{
+    font-size: 75%;
+}
+
+.page__text span:nth-last-child(3)
+{
+    font-size: 65%;
+}
+
+.page__text span:nth-last-child(4)
+{
+    font-size: 50%;
+}
+
+.page__nav_prev span
+{
+    vertical-align: top;
+}
+
+.page__nav_next span
+{
+    vertical-align: bottom;
+}
