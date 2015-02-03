@@ -94,7 +94,7 @@
 /* до 10/5 (landscape) и более */
 
 /*  */
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 950px) {
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 950px) {
     .section_type_elliptics .section__logo
     {
         margin-left: 0;
