@@ -3,13 +3,26 @@ html
     height: 100%;
 }
 
+html .page:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    width: 640px;
+    height: 360px;
+    background: red;
+    content: '';
+}
+
 html .page
 {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-
     height: 100%;
+    font-weight: 300;
+    font-family: 'Open Sans', Arial, sans-serif;
+
+    line-height: 1.5;
 }
 
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {*/
@@ -22,8 +35,8 @@ html .page
 
 .page__inner
 {
-    height: 100%;
     min-height: 100%;
+    height: 100%;
 }
 
 .page #fp-nav
