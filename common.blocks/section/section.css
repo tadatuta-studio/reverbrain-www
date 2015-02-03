@@ -28,7 +28,7 @@
 .section__inner
 {
     position: relative;
-    padding: 40px;
+    padding: 4vmin;
 }
 
 .section__logo
@@ -69,11 +69,6 @@
     display: inline-block;
 }
 
-.section__description
-{
-    padding: 0 3vw;
-}
-
 .section__footer
 {
     position: absolute;
@@ -83,14 +78,3 @@
     text-align: center;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .section__inner
-    {
-        padding: 40px 1%;
-    }
-
-    .section__description
-    {
-        padding: 0 1%;
-    }
-}
