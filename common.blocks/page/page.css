@@ -3,27 +3,6 @@ html
     height: 100%;
 }
 
-html .page:before
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    display: block;
-    width: 320px;
-    height: 180px;
-    background: red;
-    content: '';
-}
-
-@media all and (max-device-height:360px) {
-    html .page:before
-    {
-        background: green;
-    }
-}
-
-
 html .page
 {
     height: 100%;

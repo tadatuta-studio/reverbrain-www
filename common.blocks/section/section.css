@@ -85,15 +85,15 @@
     text-align: center;
 }
 
-@media screen and (-webkit-device-pixel-ratio: 2) {
-    .section
-    {
-        font-size: 4vmin;
-    }
+@media screen and (max-device-aspect-ratio: 16/9) {
+    /*.section*/
+    /*{*/
+        /*font-size: 4vmin;*/
+    /*}*/
 
     .section__inner
     {
-        max-width: 192vmin;
-        max-height: 192vmin;
+        /*max-width: 92vmax;*/
+        /*max-height: 92vmax;*/
     }
 }
