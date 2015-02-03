@@ -27,8 +27,15 @@
 
 .section__inner
 {
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
     padding: 4vmin;
+    max-width: 92vmin;
+    max-height: 92vmin;
 }
 
 .section__logo
