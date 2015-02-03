@@ -16,6 +16,14 @@ html .page:before
     content: '';
 }
 
+@media all and (max-device-height:360px) {
+    html .page:before
+    {
+        background: green;
+    }
+}
+
+
 html .page
 {
     height: 100%;
