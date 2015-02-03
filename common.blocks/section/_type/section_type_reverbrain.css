@@ -5,6 +5,11 @@
     /*background: radial-gradient(ellipse at 70% 10%, #366 0%, #1c1e26 100%);*/
 }
 
+.section_type_reverbrain .section__logo
+{
+    margin-bottom: 7vmin;
+}
+
 .section_type_reverbrain .section__description
 {
     margin-bottom: 6vmin;

@@ -58,7 +58,18 @@
                         },
                         {
                             tag: 'p',
-                            content: 'Distributed hash table design allows not to use dedicated metadata servers which frequently become points of failure in the classical storages, instead user can connect to any server in the network and all requests will be forwarded to the needed nodes. One can lookup the needed server and connect there directly to get data.'
+                            content: [
+                                'Distributed hash table design allows not to use dedicated metadata servers which frequently become points of failure in the classical storages, instead user can connect to any server in the network and all requests will be forwarded to the needed nodes.',
+                                'One can lookup the needed server and connect there directly to get data.'
+                            ]
+                        },
+                        {
+                            tag: 'p',
+                            content: 'Elliptics can be called a cloud of losely connected equivalent nodes. Joining node will automatically connect to the needed servers according to the network topology, it can store data in different configurable backends like file IO storage, eblob backend. One can create own IO storage backend.'
+                        },
+                        {
+                            tag: 'p',
+                            content: 'Protocol allows to implement own data storage using specific features for the deploying project and generally extend data communication with infinite number of the extensions. One of the implemented examples is remote command execution, which can be used as a load balancing job manager.'
                         }
                     ],
                     nav : [
@@ -112,11 +123,15 @@
                     description : [
                         {
                             tag: 'p',
-                            content: 'It is built on top of thevoid HTTP framework. Although rift can be used as stand-alone web server, it is usually better to put it behind balancing web server like Nginx.'
+                            content: 'Rift is HTTP frontend to elliptics with excessive set of features like S3-like buckets (each can have own groups to store data and ACLs), persistent caching and so on. It is built on top of thevoid HTTP framework. Although rift can be used as stand-alone web server, it is usually better to put it behind balancing web server like Nginx. You can check a small (a little bit outdated though) tutorial on how to setup former thevoid elliptics server behind Nginx.'
                         },
                         {
                             tag: 'p',
-                            content: 'You can check a small (a little bit outdated though) tutorial on how to setup former thevoid elliptics server behind Nginx.'
+                            content: 'Rift as well as thevoid is completely asynchronous and because of that server extensions might look complex to write, but actually they are not. Here is a documentation of the currently supported features. They are written as list of so called handlers - URI parts which are detected by the server, and then processed in the code.'
+                        },
+                        {
+                            tag: 'p',
+                            content: 'Backrunner is a new swiss-knife HTTP proxy for Elliptics distributed storage. It supports ACL, automatic bucket selection based on disk and network speed, errors, amount of free space, automatic defragmentation, header extension, local static files handling and provides simple REST API for clients.'
                         }
                     ],
                     nav : [
@@ -190,6 +205,14 @@
                                     {
                                         tag : 'p',
                                         content : 'Our mission is to create a true way solution for the wide variety of storage and computation problems we see every day. We created the whole stack of technologies ranging from the lowest level of data storage upto high-level processing pipeline.'
+                                    },
+                                    {
+                                        tag : 'p',
+                                        content : 'Time moves on and we see how complex is to deal with massively increasing amounts of data. We provide solutions for true-way horizontal scaling with fair system complexity. Our storage appliances lay in the area where one has to host multi-millions to billions of small-to-medium objects upto huge data streaming systems.'
+                                    },
+                                    {
+                                        tag : 'p',
+                                        content : 'Your data should nost just lay in archive in the distributed system — realtime pipeline processing is our vision of how data has to be handled. We use them by ourself and want to provide the best experience for our customers.'
                                     }
                                 ]
                             },
@@ -201,6 +224,10 @@
                             {
                                 elem : 'description',
                                 content : [
+                                    {
+                                        tag : 'p',
+                                        content : 'Every day brings us more and more complex situations where our decisions are based on previous experience and current situation. We build our business on the ever growing demand for scalable storage and data processing solutions.'
+                                    },
                                     {
                                         tag : 'p',
                                         content : [

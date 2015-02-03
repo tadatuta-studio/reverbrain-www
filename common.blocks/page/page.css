@@ -26,6 +26,10 @@ html .page
     min-height: 100%;
 }
 
+.page #fp-nav
+{
+    right: 1vmin;
+}
 
 .page_num_0 #fp-nav ul li a span,
 .page_num_4 #fp-nav ul li a span,
