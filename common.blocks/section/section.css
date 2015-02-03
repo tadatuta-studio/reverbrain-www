@@ -92,3 +92,25 @@
 @media screen and (min-aspect-ratio: 10/6) { html { font-size: 1.14vmin; } }
 @media screen and (min-aspect-ratio: 10/5) { html { font-size: 1.18vmin; } }
 /* до 10/5 (landscape) и более */
+
+/*  */
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 950px), screen and (min-device-pixel-ratio: 2) and (max-height: 950px) {
+    .section_type_elliptics .section__logo
+    {
+        margin-left: 0;
+    }
+
+    .section_type_elliptics .heading_level_1
+    {
+        margin: -17rem 0 0 17rem;
+        text-align: left;
+        line-height: 1;
+    }
+
+    .section_type_elliptics .heading_level_3
+    {
+        margin-left: 17rem;
+        text-align: left;
+        font-size: 3rem;
+    }
+}
