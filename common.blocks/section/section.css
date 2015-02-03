@@ -52,7 +52,7 @@
 .section__nav
 {
     margin: 4rem auto;
-    width: 80%;
+    max-width: 80%;
     text-align: center;
 }
 
