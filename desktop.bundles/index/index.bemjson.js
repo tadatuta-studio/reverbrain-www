@@ -118,7 +118,7 @@
                 },
                 {
                     name : 'rift',
-                    title : 'Rift/backrunner',
+                    title : 'Rift/<wbr>backrunner',
                     shortDesc : 'Http proxy for elliptics distributed storage with ACL and streaming support.',
                     description : [
                         {

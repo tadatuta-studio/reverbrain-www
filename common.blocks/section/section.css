@@ -106,8 +106,8 @@
 }
 
 @media screen and (max-width: 750px), screen and (max-height: 750px) {
-    @media (max-aspect-ratio: 35/75) { html { font-size: 1.65vmin; } }
-    @media (min-aspect-ratio: 35/75) { html { font-size: 1.65vmin; } }
+    @media (max-aspect-ratio: 35/75) { html { font-size: 1.5vmin; } }
+    @media (min-aspect-ratio: 35/75) { html { font-size: 1.5vmin; } }
     @media (min-aspect-ratio: 40/75) { html { font-size: 1.55vmin; } }
     @media (min-aspect-ratio: 45/75) { html { font-size: 1.45vmin; } }
     @media (min-aspect-ratio: 50/75) { html { font-size: 1.35vmin; } }
