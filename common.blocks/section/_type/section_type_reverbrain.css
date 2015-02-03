@@ -5,14 +5,19 @@
     /*background: radial-gradient(ellipse at 70% 10%, #366 0%, #1c1e26 100%);*/
 }
 
+.section_type_reverbrain .section__watermark
+{
+    opacity: .1;
+}
+
 .section_type_reverbrain .section__logo
 {
-    margin-bottom: 7vmin;
+    margin-bottom: 7rem;
 }
 
 .section_type_reverbrain .section__description
 {
-    margin-bottom: 6vmin;
+    margin-bottom: 6rem;
     text-align: center;
     /*font-size: 26px;*/
 }
@@ -36,8 +41,8 @@
 .section_type_reverbrain .section__nav .logo
 {
     margin: auto;
-    width: 15vmin;
-    height: 15vmin;
+    width: 15rem;
+    height: 15rem;
 }
 
 .section_type_reverbrain .logo_tech_reverbrain

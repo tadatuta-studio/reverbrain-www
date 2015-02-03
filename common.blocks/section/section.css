@@ -2,11 +2,13 @@
 {
     position: relative; /* for :before */
 
+    display: flex;
+
     overflow: hidden;
 
     min-height: 100%;
-
-    font-size: 2vmin;
+    font-size: 2rem;
+    align-items: center;
 }
 
 .section__watermark
@@ -22,42 +24,34 @@
 
     content: '';
 
-    opacity: .1;
+    opacity: .03;
 }
 
 .section__inner
 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    padding: 4vmin;
-    max-width: 92vmin;
-    max-height: 92vmin;
+    padding: 4rem;
 }
 
 .section__logo
 {
-    margin: 0 auto 2vmin;
-    width: 15vmin;
-    height: 15vmin;
+    margin: 0 auto 2rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 .section .heading_level_1
 {
-    margin-bottom: 1vmin;
+    margin-bottom: 1rem;
 }
 
 .section .heading_level_3
 {
-    margin-bottom: 4vmin;
+    margin-bottom: 4rem;
 }
 
 .section__nav
 {
-    margin: 4vmin auto;
+    margin: 4rem auto;
     width: 80%;
     text-align: center;
 }
@@ -79,21 +73,20 @@
 .section__footer
 {
     position: absolute;
-    bottom: 2vmin;
+    bottom: 2rem;
     left: 0;
     width: 100%;
     text-align: center;
 }
 
-@media screen and (max-device-aspect-ratio: 16/9) {
-    .section
-    {
-        font-size: 2.5vmin;
-    }
-
-    .section__inner
-    {
-        max-width: 138vmin;
-        max-height: 138vmin;
-    }
-}
+@media screen and (max-aspect-ratio: 5/10) { html { font-size: 1.5vmin; } }
+@media screen and (min-aspect-ratio: 6/10) { html { font-size: 1.4vmin; } }
+@media screen and (min-aspect-ratio: 7/10) { html { font-size: 1.2vmin; } }
+@media screen and (min-aspect-ratio: 8/10) { html { font-size: 1.1vmin; } }
+@media screen and (min-aspect-ratio: 9/10) { html { font-size: 1.05vmin; } }
+@media screen and (aspect-ratio: 1/1) { html { font-size: 1vmin; } }
+@media screen and (min-aspect-ratio: 10/9) { html { font-size: 1.02vmin; } }
+@media screen and (min-aspect-ratio: 10/8) { html { font-size: 1.03vmin; } }
+@media screen and (min-aspect-ratio: 10/7) { html { font-size: 1.09vmin; } }
+@media screen and (min-aspect-ratio: 10/6) { html { font-size: 1.14vmin; } }
+@media screen and (min-aspect-ratio: 10/5) { html { font-size: 1.18vmin; } }

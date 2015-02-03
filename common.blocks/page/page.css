@@ -1,6 +1,12 @@
+*
+{
+    transition:all .3s linear;
+}
+
 html
 {
     height: 100%;
+    font-size: 1vmin;
 }
 
 html .page
@@ -8,7 +14,6 @@ html .page
     height: 100%;
     font-weight: 300;
     font-family: 'Open Sans', Arial, sans-serif;
-
     line-height: 1.5;
 }
 
@@ -28,7 +33,7 @@ html .page
 
 .page #fp-nav
 {
-    right: 1vmin;
+    right: 1rem;
 }
 
 .page_num_0 #fp-nav ul li a span,

@@ -13,6 +13,7 @@
     padding-right: 70vh;
     width: auto;
     height: auto;
+    opacity: .05;
 }
 
 .section_type_about .section__watermark:first-child
@@ -41,17 +42,17 @@
 
 .section_type_about .heading_level_1
 {
-    margin-bottom: 2vmin;
+    margin-bottom: 2rem;
 }
 
 .section_type_about .heading_level_3
 {
-    margin-bottom: 1.5vmin;
+    margin-bottom: 1.5rem;
 }
 
 .section_type_about p
 {
-    margin: 1.5vmin 0;
+    margin: 1.5rem 0;
 }
 
 .section_type_about .section__description:last-of-type
