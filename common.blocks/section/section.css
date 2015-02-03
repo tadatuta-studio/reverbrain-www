@@ -82,28 +82,9 @@
     text-align: center;
 }
 
-/* от соотношения сторон 6/10 (portrait) и менее */
-/*@media screen and (max-aspect-ratio: 6/10) { html { font-size: 1.4vmin; } }*/
-/*@media screen and (min-aspect-ratio: 6/10) { html { font-size: 1.3vmin; } }*/
-/*@media screen and (min-aspect-ratio: 7/10) { html { font-size: 1.15vmin; } }*/
-/*@media screen and (min-aspect-ratio: 8/10) { html { font-size: 1.05vmin; } }*/
-/*@media screen and (min-aspect-ratio: 9/10) { html { font-size: 1vmin; } }*/
-/*@media screen and (min-aspect-ratio: 1/1) { html { font-size: 1vmin; } }*/
-/*@media screen and (min-aspect-ratio: 10/9) { html { font-size: 1.02vmin; } }*/
-/*@media screen and (min-aspect-ratio: 10/8) { html { font-size: 1.03vmin; } }*/
-/*@media screen and (min-aspect-ratio: 10/7) { html { font-size: 1.09vmin; } }*/
-/*@media screen and (min-aspect-ratio: 10/6) { html { font-size: 1.14vmin; } }*/
-/*@media screen and (min-aspect-ratio: 10/5) { html { font-size: 1.18vmin; } }*/
-
-/* до 10/5 (landscape) и более */
-
-
-@media screen and (min-width: 750px) and (min-height: 750px) {
-    html
-    {
-        font-size: 7.5px;
-    }
-}
+@media screen and (min-width: 750px) and (min-height: 750px) { html { font-size: 7.5px; } }
+@media screen and (min-width: 800px) and (min-height: 800px) { html { font-size: 8px; } }
+@media screen and (min-width: 900px) and (min-height: 900px) { html { font-size: 8.5px; } }
 
 @media screen and (max-width: 750px), screen and (max-height: 750px) {
     @media (max-aspect-ratio: 35/75) { html { font-size: 1.5vmin; } }
@@ -118,6 +99,7 @@
     @media (min-aspect-ratio: 75/60) { html { font-size: 1.1vmin; } }
     @media (min-aspect-ratio: 75/50) { html { font-size: 1.15vmin; } }
     @media (min-aspect-ratio: 75/35) { html { font-size: 1.2vmin; } }
+    @media (min-aspect-ratio: 75/30) { html { font-size: 1vmin; } }
 
     .section__inner
     {
