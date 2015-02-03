@@ -86,6 +86,11 @@
 }
 
 @media screen and (-webkit-device-pixel-ratio: 2) {
+    .section
+    {
+        font-size: 4vmin;
+    }
+
     .section__inner
     {
         max-width: 192vmin;
