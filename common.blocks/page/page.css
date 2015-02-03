@@ -10,8 +10,8 @@ html .page:before
     left: 0;
     z-index: 10;
     display: block;
-    width: 640px;
-    height: 360px;
+    width: 320px;
+    height: 180px;
     background: red;
     content: '';
 }
