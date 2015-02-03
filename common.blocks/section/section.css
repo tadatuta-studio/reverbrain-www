@@ -85,3 +85,10 @@
     text-align: center;
 }
 
+@media screen and(device-pixel-ratio: 2) {
+    .section__inner
+    {
+        max-width: 192vmin;
+        max-height: 192vmin;
+    }
+}
