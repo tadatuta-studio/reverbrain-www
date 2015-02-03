@@ -86,14 +86,14 @@
 }
 
 @media screen and (max-device-aspect-ratio: 16/9) {
-    /*.section*/
-    /*{*/
-        /*font-size: 4vmin;*/
-    /*}*/
+    .section
+    {
+        font-size: 3vmin;
+    }
 
     .section__inner
     {
-        /*max-width: 92vmax;*/
-        /*max-height: 92vmax;*/
+        max-width: 138vmin;
+        max-height: 138vmax;
     }
 }
