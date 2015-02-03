@@ -1,9 +1,9 @@
 {
     "paths" : {
-        "i/": "i/"
+        "./desktop.bundles/index": ""
     },
     "freeze_paths" : {
         "libs/**": ":base64:",
-        "*.blocks/**": "i/"
+        "*.blocks/**": "desktop.bundles/index/i"
     }
 }

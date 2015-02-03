@@ -1,0 +1,62 @@
+.section_type_reverbrain
+{
+    background: #1c1e26;
+    color: #fff;
+    /*background: radial-gradient(ellipse at 70% 10%, #366 0%, #1c1e26 100%);*/
+}
+
+.section_type_reverbrain .section__watermark
+{
+    opacity: .1;
+}
+
+.section_type_reverbrain .section__logo
+{
+    margin-bottom: 7rem;
+}
+
+.section_type_reverbrain .section__description
+{
+    margin-bottom: 6rem;
+    text-align: center;
+    /*font-size: 26px;*/
+}
+
+.section_type_reverbrain .section__inner
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_type_reverbrain .section__inner > *
+{
+    flex: 1 0 100%;
+}
+
+.section_type_reverbrain .section__nav
+{
+    order: 1;
+}
+
+.section_type_reverbrain .section__nav .logo
+{
+    margin: auto;
+    width: 15rem;
+    height: 15rem;
+}
+
+.section_type_reverbrain .logo_tech_reverbrain
+{
+    background-image: url(../../logo/logo_tech_reverbrain-white.svg);
+}
+
+.section_type_reverbrain .link:hover .logo:first-of-type,
+.section_type_reverbrain .link .logo:last-of-type
+{
+    display: none;
+}
+
+.section_type_reverbrain .link:hover .logo:last-of-type
+{
+    display: block;
+}
