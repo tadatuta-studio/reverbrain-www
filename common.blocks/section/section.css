@@ -73,6 +73,11 @@
     display: inline-block;
 }
 
+.section__description
+{
+    text-align: justify;
+}
+
 .section__footer
 {
     position: absolute;

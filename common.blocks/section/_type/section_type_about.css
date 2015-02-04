@@ -40,6 +40,11 @@
     height: 40vh;
 }
 
+.section_type_about .section__inner
+{
+    padding-bottom: 6rem;
+}
+
 .section_type_about .heading_level_1
 {
     margin-bottom: 2rem;
