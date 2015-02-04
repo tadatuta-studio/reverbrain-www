@@ -50,32 +50,13 @@
     background-image: url(../../logo/logo_tech_reverbrain-white.svg);
 }
 
-.section_type_reverbrain .logo_tech_eblob
+.section_type_reverbrain .link:hover .logo:first-of-type,
+.section_type_reverbrain .link .logo:last-of-type
 {
-    background-image: url(../../logo/logo_tech_eblob-white.svg);
+    display: none;
 }
 
-.section_type_reverbrain .link:hover .logo_tech_eblob
+.section_type_reverbrain .link:hover .logo:last-of-type
 {
-    background-image: url(../../logo/logo_tech_eblob-hovered-white.svg);
-}
-
-.section_type_reverbrain .logo_tech_elliptics
-{
-    background-image: url(../../logo/logo_tech_elliptics-white.svg);
-}
-
-.section_type_reverbrain .link:hover .logo_tech_elliptics
-{
-    background-image: url(../../logo/logo_tech_elliptics-hovered-white.svg);
-}
-
-.section_type_reverbrain .logo_tech_rift
-{
-    background-image: url(../../logo/logo_tech_rift-white.svg);
-}
-
-.section_type_reverbrain .link:hover .logo_tech_rift
-{
-    background-image: url(../../logo/logo_tech_rift-hovered-white.svg);
+    display: block;
 }

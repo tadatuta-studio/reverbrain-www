@@ -27,21 +27,24 @@
                         {
                             url: '#elliptics',
                             anchor: [
-                                { block : 'logo', mods : { tech : 'elliptics' } },
+                                { block : 'logo', mods : { tech : 'elliptics-white' } },
+                                { block : 'logo', mods : { tech : 'elliptics-hovered-white' } },
                                 'elliptics'
                             ]
                         },
                         {
                             url: '#eblob',
                             anchor: [
-                                { block : 'logo', mods : { tech : 'eblob' } },
+                                { block : 'logo', mods : { tech : 'eblob-white' } },
+                                { block : 'logo', mods : { tech : 'eblob-hovered-white' } },
                                 'eblob'
                             ]
                         },
                         {
                             url: '#rift',
                             anchor: [
-                                { block : 'logo', mods : { tech : 'rift' } },
+                                { block : 'logo', mods : { tech : 'rift-white' } },
+                                { block : 'logo', mods : { tech : 'rift-hovered-white' } },
                                 'rift/backrunner'
                             ]
                         }

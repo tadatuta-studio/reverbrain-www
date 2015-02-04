@@ -8,9 +8,19 @@
     background-image: url(logo_tech_reverbrain.svg);
 }
 
+.logo_tech_reverbrain-white
+{
+    background-image: url(logo_tech_reverbrain-white.svg);
+}
+
 .logo_tech_eblob
 {
     background-image: url(logo_tech_eblob.svg);
+}
+
+.logo_tech_eblob-white
+{
+    background-image: url(logo_tech_eblob-white.svg);
 }
 
 .link:hover .logo_tech_eblob
@@ -23,6 +33,11 @@
     background-image: url(logo_tech_elliptics.svg);
 }
 
+.logo_tech_elliptics-white
+{
+    background-image: url(logo_tech_elliptics-white.svg);
+}
+
 .link:hover .logo_tech_elliptics
 {
     background-image: url(logo_tech_elliptics-hovered.svg);
@@ -33,7 +48,28 @@
     background-image: url(logo_tech_rift.svg);
 }
 
+.logo_tech_rift-white
+{
+    background-image: url(logo_tech_rift-white.svg);
+}
+
 .link:hover .logo_tech_rift
 {
     background-image: url(logo_tech_rift-hovered.svg);
+}
+
+
+.logo_tech_eblob-hovered-white
+{
+    background-image: url(logo_tech_eblob-hovered-white.svg);
+}
+
+.logo_tech_elliptics-hovered-white
+{
+    background-image: url(logo_tech_elliptics-hovered-white.svg);
+}
+
+.logo_tech_rift-hovered-white
+{
+    background-image: url(logo_tech_rift-hovered-white.svg);
 }
