@@ -1,6 +1,6 @@
 OUTPUT_DIR=output
 
-YENV=production ./node_modules/.bin/bem make
+YENV=production ./node_modules/.bin/enb make
 mkdir -p $OUTPUT_DIR
 mkdir -p $OUTPUT_DIR/i
 cp desktop.bundles/index/index.html $OUTPUT_DIR/

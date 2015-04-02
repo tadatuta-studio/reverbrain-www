@@ -1,8 +1,7 @@
 ({
     mustDeps: [
-        'i-bem__dom',
-        'fullpage',
-        { mods: { theme: 'islands' } }
+        { block: 'i-bem', elems: 'dom' },
+        'fullpage'
     ],
     shouldDeps : [
         { elems : ['nav'] }

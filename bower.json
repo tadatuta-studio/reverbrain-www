@@ -9,7 +9,7 @@
     "libs"
   ],
   "dependencies": {
-    "bem-components": "451bec8d7277ff9a39e6eecfefa1ae78fdaf6892",
+    "bem-components": "2.1.0",
     "fullpage.js": "~2.4.3"
   }
 }
